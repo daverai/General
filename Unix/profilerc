@@ -1,0 +1,25 @@
+# unix alias commands
+alias ls="ls -la"
+alias pd="pushd"
+alias ppd="popd"
+
+# app alias commands
+alias word="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Word.app"
+alias excel="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Excel.app"
+alias ppt="open /Applications/Microsoft\ Office\ 2011/Microsoft\ PowerPoint.app"
+alias outlook="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Outlook.app"
+alias xcode="open /Developer/Applications/Xcode.app"
+alias mockups="open /Applications/Balsamiq\ Mockups.app"
+alias mm="open /Applications/FreeMind.app"
+
+# git commands
+alias gp="git push"
+alias ga="git add"
+alias gl="git pull"
+alias gc="git commit"
+alias gr="git remote"
+alias gs="git status"
+alias gmv="git mv"
+
+
+export EDITOR=/Applications/TextEdit.app/Contents/MacOS/TextEdit
