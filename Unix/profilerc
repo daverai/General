@@ -2,6 +2,8 @@
 alias ls="ls -Gla"
 alias pd="pushd"
 alias ppd="popd"
+alias edit="vi"
+
 
 # app alias commands
 alias word="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Word.app"
@@ -21,5 +23,5 @@ alias gr="git remote"
 alias gs="git status"
 alias gmv="git mv"
 
-
-export EDITOR=/Applications/TextEdit.app/Contents/MacOS/TextEdit
+# environment variable exports
+export EDITOR=/usr/bin/vi
