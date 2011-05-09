@@ -1,5 +1,5 @@
 # unix alias commands
-alias ls="ls -la"
+alias ls="ls -Gla"
 alias pd="pushd"
 alias ppd="popd"
 
