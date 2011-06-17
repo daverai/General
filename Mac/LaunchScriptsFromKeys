@@ -1,0 +1,11 @@
+1. Create a new Automator workflow. Choose a "Service" template.
+2. Configure it so that Service received "no input" in "any application". This will ensure that this service is always visible in any application (you might want to limit the service to a specific app, but I won't for this example)
+3. Add a "Run AppleScript" object into the workflow.
+4. Enter the Applescript you want (In my case I pasted some UI scripting code that I want available at a keypress)
+5. Save the Service and name it something descriptive, short, and unique so that it will work as a Keyboard Shortcut.
+
+6. Open the Keyboard Preference and select the "Services" item in the left side of the Keyboard Shortcuts pane.
+7. Scroll down to the "General" heading at the bottom of the list on the right side of the Keyboard Shortcuts pane.
+8. Find your new Service and activate it (by checking it's checkbox).
+9. Assign a keypress shortcut by clicking on rightmost part of that row and pressing the key you want (I chose F1).
+

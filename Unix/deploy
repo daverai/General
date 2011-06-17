@@ -1,0 +1,8 @@
+#script to deploy other unix scripts to appropriate direcotries
+#also includes deployment of apple scripts
+#script assumes the files to deploy are located either in ~/dev/General/Unix 
+#or for AS files, that fiels to deploy are located in ~/dev/General/Mac
+echo "deploying profile.."
+cp ~/dev/General/Unix/profilerc ~/.profile
+cp ~/dev/General/Mac/Scripts/DevTerms.scpt ~/Library/Scripts/DevTerms.scpt
+echo "done!"
