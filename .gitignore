@@ -1,0 +1,8 @@
+bin/
+build/
+debug/
+*.bin/
+*.build/
+*.debug/
+*.[oa]
+.DS_Store
