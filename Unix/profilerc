@@ -1,5 +1,5 @@
 # unix alias commands
-alias ls="ls -sh"
+alias ls="ls -h"
 alias la="ls -Glah"
 alias lss="ls -GlaSh"
 alias lst="ls -Glath"
