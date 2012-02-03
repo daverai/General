@@ -1,5 +1,6 @@
 # unix alias commands
-alias ls="ls -Glah"
+alias ls="ls -sh"
+alias la="ls -Glah"
 alias lss="ls -GlaSh"
 alias lst="ls -Glath"
 alias pd="pushd"
@@ -27,4 +28,4 @@ alias gmv="git mv"
 
 # environment variable exports
 export EDITOR=/usr/bin/vi
-export PS1="\w>"
+export PS1="\w> "
