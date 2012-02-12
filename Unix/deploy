@@ -3,6 +3,14 @@
 #script assumes the files to deploy are located either in ~/dev/General/Unix 
 #or for AS files, that fiels to deploy are located in ~/dev/General/Mac
 echo "deploying profile.."
-cp ~/dev/General/Unix/profilerc ~/.profile
+#if a bashrc exists (sometimes default) - then concatenate to that, else concatenate to .profile
+#if neither exists, write to .profile
+if [ -f ~/.bashrc ]; then
+	cat ~/dev/General/Unix/profilerc >> ~/.bashrc
+elif [ -f ~/.profile ]; then
+	cat ~/dev/General/Unix/profilerc >> ~/.profile
+fi
+
+# have to change below to detect OS
 cp ~/dev/General/Mac/Scripts/DevTerms.scpt ~/Library/Scripts/DevTerms.scpt
 echo "done!"

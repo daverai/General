@@ -1,5 +1,6 @@
 # unix alias commands
-alias ls="ls -Glah"
+alias ls="ls -h"
+alias la="ls -Glah"
 alias lss="ls -GlaSh"
 alias lst="ls -Glath"
 alias pd="pushd"
@@ -7,7 +8,7 @@ alias ppd="popd"
 alias edit="vi"
 
 
-# app alias commands
+# app alias commands (only make sence on a mac)
 alias word="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Word.app"
 alias excel="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Excel.app"
 alias ppt="open /Applications/Microsoft\ Office\ 2011/Microsoft\ PowerPoint.app"
@@ -27,4 +28,4 @@ alias gmv="git mv"
 
 # environment variable exports
 export EDITOR=/usr/bin/vi
-export PS1="\w>"
+export PS1="\w> "
