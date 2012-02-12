@@ -6,3 +6,4 @@ debug/
 *.debug/
 *.[oa]
 .DS_Store
+*~.*
