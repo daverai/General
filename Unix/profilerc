@@ -16,6 +16,7 @@ alias outlook="open /Applications/Microsoft\ Office\ 2011/Microsoft\ Outlook.app
 alias xcode="open /Developer/Applications/Xcode.app"
 alias mockups="open /Applications/Balsamiq\ Mockups.app"
 alias mm="open /Applications/FreeMind.app"
+alias mou="open /Applications/Mou.app"
 
 # git commands
 alias gp="git push"
@@ -29,3 +30,10 @@ alias gmv="git mv"
 # environment variable exports
 export EDITOR=/usr/bin/vi
 export PS1="\w> "
+
+#set shell command search to vi
+set -o vi
+
+#on mac OS, changes the terminal name to current working directory
+export PROMPT_COMMAND='echo -ne "\033]0;${PWD}\007"'
+
