@@ -9,6 +9,8 @@ if [ -f ~/.bashrc ]; then
 	cat ~/dev/General/Unix/profilerc >> ~/.bashrc
 elif [ -f ~/.profile ]; then
 	cat ~/dev/General/Unix/profilerc >> ~/.profile
+else
+	cp ~/dev/General/Unix/profilerc ~/.profile
 fi
 
 # have to change below to detect OS
