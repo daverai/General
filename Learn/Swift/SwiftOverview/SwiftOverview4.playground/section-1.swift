@@ -307,3 +307,22 @@ for deckCard in testDeck {
 }
 
 
+
+// Instance of enumeration members can have data values associated with them
+enum ServerResponse {
+    case Result (String, String)
+    case Error (String)
+}
+
+let success = ServerResponse.Result("home", "no time stamp")
+let failure = ServerResponse.Error("FATAL ERROR")
+
+// example usage of data usage (this one is for success, but could be equally for the failure enum
+switch success {
+case let .Result (page, time):
+    let serverResponse = "Currently on \(page), at time: \(time)"
+case let .Error (errMessage):
+    let serverResponse = "Error message is: \(errMessage)"
+}
+
+
