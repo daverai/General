@@ -30,7 +30,7 @@ alias gmv="git mv"
 # environment variable exports
 export EDITOR=/usr/bin/vi
 export PS1="\w> "
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:/Applications/CMake.app/Contents/bin:$PATH
 
 #set shell command search to vi
 set -o vi
