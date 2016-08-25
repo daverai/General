@@ -8,6 +8,8 @@ defmodule Drop do
 	in meters and the velocity returned is in meters per second. 
 	"""
 
+	@spec fall_velocity(number(), float()) :: number()
+
 	def fall_velocity(distance, gravity \\ 9.8) do
 		sqrt(2*gravity*distance)
 	end
