@@ -1,5 +1,11 @@
 defmodule Drop do
 
+	@moduledoc """
+	Functions calculating velocities achieved by objects dropped in a vacuum.
+	"""
+
+	@vsn 0.1
+
 	import :math
 
 	@doc """
